@@ -18,6 +18,7 @@ body{
     height:80px ;
     background-color:rgb(2, 2, 61) ;
     font-size: 14pt;
+    margin-top: 18px;
 }
 .imgfooter{
     width: 42px;
@@ -40,4 +41,54 @@ a:visited{
     height: 250px;
     margin: 25px;
     border: solid 1px rgb(2, 2, 61) ;
+}
+
+.grid	{
+    border:none;
+    display: grid;	
+    grid-template-columns:	300px	300px;	
+    grid-template-rows:	250px	250px;
+    gap: 10px;
+}
+
+.item1y4 {
+    border: 1px solid rgb(2, 2, 61);
+    background-color:rgb(2, 2, 61);
+    color:rgb(248, 236, 213);
+    padding: 3px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
+    font-size: 11px;
+}
+.item2y3 {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(238, 227, 207);
+    color: rgb(2, 2, 61);
+    padding: 3px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
+    font-size: 11px;
+}
+
+.imgrid {
+    margin-top: 2px;
+    height: 140px;
+    width: 240px;
+    margin-top: 5px;
+}
+.margin {
+    margin: 1px;
+}
+.marginp{
+    margin: 1px;
+}
+.imggrid{
+    height:130px;
+    width:240px;
+    margin-top:5px;
+}
+#fontmilan{
+    font-size: 15pt;
 }
